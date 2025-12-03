@@ -43,4 +43,4 @@ for i, tile in enumerate(tiles):
 plt.tight_layout()
 plt.show()
 
-print(f"Member 3: Slicing complete. {len(tiles)} tiles saved.")
+print(f" Slicing complete. {len(tiles)} tiles saved.")
