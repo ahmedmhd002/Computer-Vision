@@ -41,6 +41,6 @@ output_file = 'puzzle_features.json'
 with open(output_file, 'w') as f:
     json.dump(final_dataset, f, indent=4)
 
-print(f"Member 5: Data packaged. Saved to '{output_file}'.")
+print(f" Data packaged. Saved to '{output_file}'.")
 print("\n--- JSON PREVIEW (First Contour of First Tile) ---")
 print(json.dumps(final_dataset[0]['features'][0]['hu_moments'], indent=4))
