@@ -51,4 +51,4 @@ for i, tile in enumerate(tiles):
 
 plt.show()
 
-print("Member 4: Improved Contour Extraction complete.")
+print(" Improved Contour Extraction complete.")
